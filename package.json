@@ -7,7 +7,10 @@
     "test": "jest",
     "deploy:goerli": "npx hardhat run --network goerli scripts/deploy.ts",
     "deploy:sepolia": "npx hardhat run --network sepolia scripts/deploy.ts",
-    "deploy:mainnet": "npx hardhat run --network mainnet scripts/deploy.ts"
+    "deploy:mainnet": "npx hardhat run --network mainnet scripts/deploy.ts",
+    "verify:goerli": "npx hardhat verify --network goerli --contract contracts/Attractor.sol:Attractor",
+    "verify:sepolia": "npx hardhat verify --network sepolia --contract contracts/Attractor.sol:Attractor",
+    "verify:mainnet": "npx hardhat verify --network mainnet --contract contracts/Attractor.sol:Attractor"
   },
   "keywords": [
     "attractor",
