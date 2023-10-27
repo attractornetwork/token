@@ -4,7 +4,10 @@
   "description": "Attractor token",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "deploy:goerli": "npx hardhat run --network goerli scripts/deploy.ts",
+    "deploy:sepolia": "npx hardhat run --network sepolia scripts/deploy.ts",
+    "deploy:mainnet": "npx hardhat run --network mainnet scripts/deploy.ts"
   },
   "keywords": [
     "attractor",

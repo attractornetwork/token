@@ -17,11 +17,8 @@ edit .env
 ## Deployment
 
 ```shell
-# Deploy to Goerli
-npx hardhat run --network goerli scripts/deploy.ts
-
-# Deploy to Mainnet
-npx hardhat run --network mainnet scripts/deploy.ts
+# Deploy to goerli, sepolia or mainnet
+npm run deploy:<network>
 ```
 
 Deployed contracts:
