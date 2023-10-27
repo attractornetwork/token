@@ -24,6 +24,11 @@ const config: HardhatUserConfig = {
       chainId: 1,
       url: getenv('MAINNET_RPC_URL'),
       accounts: [getenv('DEPLOYER_PRIV_KEY')],
+    },
+    sepolia: {
+      chainId: 11155111,
+      url: getenv('SEPOLIA_RPC_URL'),
+      accounts: [getenv('DEPLOYER_PRIV_KEY')],
     }
   },
   etherscan: {
