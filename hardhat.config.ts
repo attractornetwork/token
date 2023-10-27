@@ -41,6 +41,7 @@ function getAttractorAddress(network: string): string {
     case 'mainnet':
       throw new Error('Attractor token isnt deployed to mainnet yet');
     case 'goerli':
+    case 'sepolia':
       return '0x66aFe97C101099777eFCFa896a84A8DcBc56959d';
     default: throw new Error(`No attractor is present on ${network}`);
   }
