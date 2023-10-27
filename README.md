@@ -23,17 +23,14 @@ npm run deploy:<network>
 
 Deployed contracts:
 - **Goerli**: [explore](https://goerli.etherscan.io/token/0x66afe97c101099777efcfa896a84a8dcbc56959d)
-- **Sepolia**: soon
+- **Sepolia**: [explore](https://sepolia.etherscan.io/address/0x66aFe97C101099777eFCFa896a84A8DcBc56959d)
 - **Mainnet**: soon
 
 ## Verifying
 
 ```shell
-# Verify on https://goerli.etherscan.io/
-npx hardhat verify --network goerli --contract contracts/Attractor.sol:Attractor <address>
-
-# Verify on https://etherscan.io/
-npx hardhat verify --network mainnet --contract contracts/Attractor.sol:Attractor <address>
+# Verify on on goerli, sepolia or mainnet
+npm run verify:<network> <address>
 ```
 
 ## Role management
