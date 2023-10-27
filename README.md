@@ -1,5 +1,8 @@
 # Attractor token
 
+This repository contains development, testing and management tools
+for ATTRA (Attractor) token and related ecosystem.
+
 ## Getting ready
 
 ```shell
