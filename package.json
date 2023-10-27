@@ -4,7 +4,9 @@
   "description": "Attractor token",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "deploy:goerli": "hardhat run --network goerli scripts/deploy.ts",
+    "verify:goerli": "hardhat verify --network goerli --contract contracts/Attractor.sol:Attractor 0x66aFe97C101099777eFCFa896a84A8DcBc56959d"
   },
   "keywords": [
     "attractor",
@@ -16,6 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
     "hardhat": "^2.18.2"
   },
   "devDependencies": {
