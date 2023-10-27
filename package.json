@@ -1,0 +1,24 @@
+{
+  "name": "attractor",
+  "version": "1.0.0",
+  "description": "Attractor token",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "attractor",
+    "erc20",
+    "token",
+    "l2"
+  ],
+  "author": "Rustam Murgaleev",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "hardhat": "^2.18.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0"
+  }
+}
