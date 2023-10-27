@@ -24,6 +24,11 @@ npx hardhat run --network goerli scripts/deploy.ts
 npx hardhat run --network mainnet scripts/deploy.ts
 ```
 
+Deployed contracts:
+- **Goerli**: [explore](https://goerli.etherscan.io/token/0x66afe97c101099777efcfa896a84a8dcbc56959d)
+- **Sepolia**: soon
+- **Mainnet**: soon
+
 ## Verifying
 
 ```shell
