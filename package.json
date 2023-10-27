@@ -4,11 +4,7 @@
   "description": "Attractor token",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "deploy:goerli": "hardhat run --network goerli scripts/deploy.ts",
-    "verify:goerli": "hardhat verify --network goerli --contract contracts/Attractor.sol:Attractor 0x66aFe97C101099777eFCFa896a84A8DcBc56959d",
-    "configure:goerli": "hardhat run --network goerli scripts/configure.ts",
-    "mint:goerli": "hardhat run --network goerli scripts/mint.ts"
+    "test": "jest"
   },
   "keywords": [
     "attractor",
